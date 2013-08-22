@@ -14,7 +14,12 @@ These example skectshes allow to connect to Internet or network by using WIZ Eth
 
 ## Software
 #### Install WIZ Ethernet library
-Download all files and overwrite onto the"RLduino78/libraries/Ethernet" folder in your project in sketch. 
+Download all files and overwrite onto the "RLduino78/libraries/Ethernet" folder in your project in sketch. 
+[WIZ Ethernet Library Link](https://github.com/embeddist/Ethernet.git "Ethernet")  
+
+#### Remove Arduino Ethernet Examples included in WIZ Ethernet library
+Remove "\Ethernet\examples" folder in "RLduino78/libraries/Ethernet".
+
 #### Select device(shield)  
 Uncomment device(shiel) you want to use.  
 ```cpp
